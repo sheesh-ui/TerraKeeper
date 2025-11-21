@@ -1,4 +1,12 @@
-import { Cloud, AlertTriangle, Target, Bug, Smartphone, BarChart3, Phone } from "lucide-react";
+import {
+  Cloud,
+  AlertTriangle,
+  Target,
+  Bug,
+  Smartphone,
+  BarChart3,
+  Phone,
+} from "lucide-react";
 import { Link } from "react-router-dom";
 
 export default function Dashboard() {
@@ -50,7 +58,9 @@ export default function Dashboard() {
                 <AlertTriangle className="w-5 h-5 text-terrakeeper-alert-human" />
               </div>
               <p className="text-xs text-gray-600">Human</p>
-              <p className="text-lg font-bold text-terrakeeper-alert-human">12</p>
+              <p className="text-lg font-bold text-terrakeeper-alert-human">
+                12
+              </p>
             </div>
 
             {/* Animal Alert Card */}
@@ -59,7 +69,9 @@ export default function Dashboard() {
                 <Target className="w-5 h-5 text-terrakeeper-alert-animal" />
               </div>
               <p className="text-xs text-gray-600">Animal</p>
-              <p className="text-lg font-bold text-terrakeeper-alert-animal">8</p>
+              <p className="text-lg font-bold text-terrakeeper-alert-animal">
+                8
+              </p>
             </div>
 
             {/* Pest Alert Card */}

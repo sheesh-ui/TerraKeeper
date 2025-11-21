@@ -201,12 +201,12 @@ export default function Sensors() {
                     {getSensorTypeLabel(sensor.type)}
                   </span>
                   <span className="text-xs text-gray-600">•</span>
-                  <span className="text-xs text-gray-600">{sensor.location}</span>
+                  <span className="text-xs text-gray-600">
+                    {sensor.location}
+                  </span>
                   <span
                     className={`inline-block w-2 h-2 rounded-full ${
-                      sensor.status === "active"
-                        ? "bg-green-500"
-                        : "bg-red-500"
+                      sensor.status === "active" ? "bg-green-500" : "bg-red-500"
                     }`}
                   />
                 </div>

@@ -19,7 +19,8 @@ const alerts: AlertItem[] = [
     title: "Human Detected",
     time: "Today • 2:43 PM",
     location: "South Orchard",
-    thumbnail: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
+    thumbnail:
+      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
   },
   {
     id: "2",
@@ -27,7 +28,8 @@ const alerts: AlertItem[] = [
     title: "Wild Animal Detected",
     time: "Today • 1:15 PM",
     location: "North Field",
-    thumbnail: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
+    thumbnail:
+      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
   },
   {
     id: "3",
@@ -35,7 +37,8 @@ const alerts: AlertItem[] = [
     title: "Pest Colony Detected",
     time: "Yesterday • 5:20 PM",
     location: "East Wing",
-    thumbnail: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
+    thumbnail:
+      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
   },
   {
     id: "4",
@@ -43,7 +46,8 @@ const alerts: AlertItem[] = [
     title: "Human Detected",
     time: "Yesterday • 3:00 PM",
     location: "Main Gate",
-    thumbnail: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
+    thumbnail:
+      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
   },
 ];
 
@@ -138,7 +142,7 @@ export default function Alerts() {
                       </h3>
                       <span
                         className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold ${getAlertColor(
-                          alert.type
+                          alert.type,
                         )}`}
                       >
                         {getAlertIcon(alert.type)}

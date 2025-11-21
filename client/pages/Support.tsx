@@ -139,8 +139,12 @@ export default function Support() {
               </a>
             </div>
             <div>
-              <p className="text-xs text-gray-600 font-medium">BUSINESS HOURS</p>
-              <p className="text-sm text-gray-700">Mon - Fri, 9:00 AM - 6:00 PM</p>
+              <p className="text-xs text-gray-600 font-medium">
+                BUSINESS HOURS
+              </p>
+              <p className="text-sm text-gray-700">
+                Mon - Fri, 9:00 AM - 6:00 PM
+              </p>
             </div>
           </div>
         </div>

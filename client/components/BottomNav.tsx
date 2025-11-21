@@ -1,11 +1,5 @@
 import { useLocation, Link } from "react-router-dom";
-import {
-  Home,
-  AlertCircle,
-  Video,
-  Zap,
-  Settings,
-} from "lucide-react";
+import { Home, AlertCircle, Video, Zap, Settings } from "lucide-react";
 
 const navItems = [
   { path: "/dashboard", label: "Home", icon: Home },
@@ -31,17 +25,13 @@ export default function BottomNav() {
             >
               <Icon
                 className={`w-6 h-6 transition ${
-                  isActive
-                    ? "text-terrakeeper-light-green"
-                    : "text-gray-400"
+                  isActive ? "text-terrakeeper-light-green" : "text-gray-400"
                 }`}
                 strokeWidth={2}
               />
               <span
                 className={`text-xs font-medium transition ${
-                  isActive
-                    ? "text-terrakeeper-light-green"
-                    : "text-gray-500"
+                  isActive ? "text-terrakeeper-light-green" : "text-gray-500"
                 }`}
               >
                 {label}

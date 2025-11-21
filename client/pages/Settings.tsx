@@ -44,7 +44,7 @@ export default function Settings() {
 
   const toggleNotification = (id: string) => {
     setNotifications((prev) =>
-      prev.map((n) => (n.id === id ? { ...n, enabled: !n.enabled } : n))
+      prev.map((n) => (n.id === id ? { ...n, enabled: !n.enabled } : n)),
     );
   };
 
@@ -147,9 +147,7 @@ export default function Settings() {
             <button className="w-full px-5 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition">
               <div>
                 <p className="text-sm font-medium text-gray-900">Farm Name</p>
-                <p className="text-xs text-gray-600 mt-0.5">
-                  Vista Verde Farm
-                </p>
+                <p className="text-xs text-gray-600 mt-0.5">Vista Verde Farm</p>
               </div>
               <ChevronRight className="w-5 h-5 text-gray-400" />
             </button>
@@ -164,12 +162,8 @@ export default function Settings() {
             </button>
             <button className="w-full px-5 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition">
               <div>
-                <p className="text-sm font-medium text-gray-900">
-                  Farm Size
-                </p>
-                <p className="text-xs text-gray-600 mt-0.5">
-                  250 acres
-                </p>
+                <p className="text-sm font-medium text-gray-900">Farm Size</p>
+                <p className="text-xs text-gray-600 mt-0.5">250 acres</p>
               </div>
               <ChevronRight className="w-5 h-5 text-gray-400" />
             </button>

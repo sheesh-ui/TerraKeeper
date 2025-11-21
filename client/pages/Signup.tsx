@@ -101,7 +101,10 @@ export default function Signup() {
       {/* Login Link */}
       <p className="text-gray-600 text-sm">
         Already have an account?{" "}
-        <Link to="/login" className="text-terrakeeper-light-green font-medium hover:underline">
+        <Link
+          to="/login"
+          className="text-terrakeeper-light-green font-medium hover:underline"
+        >
           Login
         </Link>
       </p>

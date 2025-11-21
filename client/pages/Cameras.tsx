@@ -20,7 +20,7 @@ const cameras: CameraDevice[] = [
 
 export default function Cameras() {
   const [selectedCamera, setSelectedCamera] = useState<CameraDevice | null>(
-    null
+    null,
   );
 
   if (selectedCamera) {
