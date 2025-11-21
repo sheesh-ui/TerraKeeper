@@ -33,7 +33,13 @@ export default function Dashboard() {
         </div>
 
         {/* Live Monitoring Preview */}
-        <div className="bg-gradient-to-b from-gray-400 to-gray-600 rounded-2xl overflow-hidden mb-6 h-52 relative shadow-md bg-cover bg-center" style={{backgroundImage: 'url(https://images.pexels.com/photos/34759011/pexels-photo-34759011.jpeg)'}}>
+        <div
+          className="bg-gradient-to-b from-gray-400 to-gray-600 rounded-2xl overflow-hidden mb-6 h-52 relative shadow-md bg-cover bg-center"
+          style={{
+            backgroundImage:
+              "url(https://images.pexels.com/photos/34759011/pexels-photo-34759011.jpeg)",
+          }}
+        >
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
           <div className="absolute bottom-4 left-4 text-white font-semibold text-base">
             North Field Camera

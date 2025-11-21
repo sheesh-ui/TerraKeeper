@@ -19,7 +19,8 @@ const alerts: AlertItem[] = [
     title: "Human Detected",
     time: "Today • 2:43 PM",
     location: "South Orchard",
-    thumbnail: "https://images.pexels.com/photos/10205483/pexels-photo-10205483.jpeg",
+    thumbnail:
+      "https://images.pexels.com/photos/10205483/pexels-photo-10205483.jpeg",
   },
   {
     id: "2",
@@ -27,7 +28,8 @@ const alerts: AlertItem[] = [
     title: "Wild Animal Detected",
     time: "Today • 1:15 PM",
     location: "North Field",
-    thumbnail: "https://images.pexels.com/photos/30728628/pexels-photo-30728628.jpeg",
+    thumbnail:
+      "https://images.pexels.com/photos/30728628/pexels-photo-30728628.jpeg",
   },
   {
     id: "3",
@@ -35,7 +37,8 @@ const alerts: AlertItem[] = [
     title: "Pest Colony Detected",
     time: "Yesterday • 5:20 PM",
     location: "East Wing",
-    thumbnail: "https://images.pexels.com/photos/12561225/pexels-photo-12561225.jpeg",
+    thumbnail:
+      "https://images.pexels.com/photos/12561225/pexels-photo-12561225.jpeg",
   },
   {
     id: "4",
@@ -43,7 +46,8 @@ const alerts: AlertItem[] = [
     title: "Human Detected",
     time: "Yesterday • 3:00 PM",
     location: "Main Gate",
-    thumbnail: "https://images.pexels.com/photos/10205483/pexels-photo-10205483.jpeg",
+    thumbnail:
+      "https://images.pexels.com/photos/10205483/pexels-photo-10205483.jpeg",
   },
 ];
 
