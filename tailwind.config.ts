@@ -57,6 +57,14 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        terrakeeper: {
+          "dark-green": "hsl(var(--terrakeeper-dark-green))",
+          "light-green": "hsl(var(--terrakeeper-light-green))",
+          "alert-human": "hsl(var(--terrakeeper-alert-human))",
+          "alert-animal": "hsl(var(--terrakeeper-alert-animal))",
+          "alert-pest": "hsl(var(--terrakeeper-alert-pest))",
+          gray: "hsl(var(--terrakeeper-gray))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
