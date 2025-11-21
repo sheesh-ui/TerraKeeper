@@ -19,8 +19,7 @@ const alerts: AlertItem[] = [
     title: "Human Detected",
     time: "Today • 2:43 PM",
     location: "South Orchard",
-    thumbnail:
-      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
+    thumbnail: "https://images.pexels.com/photos/10205483/pexels-photo-10205483.jpeg",
   },
   {
     id: "2",
@@ -28,8 +27,7 @@ const alerts: AlertItem[] = [
     title: "Wild Animal Detected",
     time: "Today • 1:15 PM",
     location: "North Field",
-    thumbnail:
-      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
+    thumbnail: "https://images.pexels.com/photos/30728628/pexels-photo-30728628.jpeg",
   },
   {
     id: "3",
@@ -37,8 +35,7 @@ const alerts: AlertItem[] = [
     title: "Pest Colony Detected",
     time: "Yesterday • 5:20 PM",
     location: "East Wing",
-    thumbnail:
-      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
+    thumbnail: "https://images.pexels.com/photos/12561225/pexels-photo-12561225.jpeg",
   },
   {
     id: "4",
@@ -46,8 +43,7 @@ const alerts: AlertItem[] = [
     title: "Human Detected",
     time: "Yesterday • 3:00 PM",
     location: "Main Gate",
-    thumbnail:
-      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Crect fill='%23f5f5f5' width='100' height='100'/%3E%3C/svg%3E",
+    thumbnail: "https://images.pexels.com/photos/10205483/pexels-photo-10205483.jpeg",
   },
 ];
 
@@ -125,11 +121,12 @@ export default function Alerts() {
                 className="flex gap-3 bg-white border border-gray-200 rounded-xl p-3 h-24 hover:shadow-md transition"
               >
                 {/* Thumbnail */}
-                <div className="flex-shrink-0 w-24 h-24 rounded-xl bg-gray-200 overflow-hidden flex items-center justify-center">
+                <div className="flex-shrink-0 w-24 h-24 rounded-xl bg-gray-200 overflow-hidden flex items-center justify-center flex-shrink-0">
                   <img
                     src={alert.thumbnail}
                     alt={alert.title}
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
 
